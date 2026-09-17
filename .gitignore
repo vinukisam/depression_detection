@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Dataset
+# ==============================
+
+data/raw/*
+data/processed/*
+data/splits/*
+
+# Keep folder structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
+
+# ==============================
+# Generated Features
+# ==============================
+
+features/*
+!features/.gitkeep
+
+# ==============================
+# Trained Models
+# ==============================
+
+models/*
+!models/.gitkeep
+
+# ==============================
+# Results
+# ==============================
+
+results/*
+!results/metrics/.gitkeep
+!results/plots/.gitkeep
+!results/shap/.gitkeep
+
+# ==============================
+# Environment Variables
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db

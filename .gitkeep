@@ -1,0 +1,18 @@
+New-Item data\raw\.gitkeep -ItemType File
+New-Item data\processed\.gitkeep -ItemType File
+New-Item data\splits\.gitkeep -ItemType File
+
+New-Item src\preprocessing\.gitkeep -ItemType File
+New-Item src\features\.gitkeep -ItemType File
+New-Item src\models\.gitkeep -ItemType File
+New-Item src\fusion\.gitkeep -ItemType File
+New-Item src\evaluation\.gitkeep -ItemType File
+
+New-Item features\.gitkeep -ItemType File
+New-Item models\.gitkeep -ItemType File
+
+New-Item results\metrics\.gitkeep -ItemType File
+New-Item results\plots\.gitkeep -ItemType File
+New-Item results\shap\.gitkeep -ItemType File
+
+New-Item report\.gitkeep -ItemType File
